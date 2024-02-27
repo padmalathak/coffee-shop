@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheets linked -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/landing.css" />
+    <title>Coffee Shop - Home</title>
+  </head>
+  <body>
+    <!-- header section of the website -->
+    <header>
+      <!-- Navigation bar -->
+      <nav class="banner-background">
+        <a href="./index.html" class="navigation-icon"
+          ><img
+            src="./assests/coffee-beans-logo-and-footer.svg"
+            alt="coffee_bean_logo"
+            class="icon-edit"
+          />
+        </a>
+        <h2 class="navigation__heading">nitro</h2>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="./index.html" class="navigation__link">ABOUT</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./pages/menu.html" class="navigation__link">MENU</a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="./pages/menu.html"
+              class="navigation__link navigation__item--highlight"
+              >SHOP NOW</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="banner-background banner-background-section">
+        <div class="banner-background__content">
+          <h1>Nitro Coffee</h1>
+          <p class="banner-background__para">
+            Coffee is a brewed drink prepared from roasted coffee beans, the
+            seeds of berries from certain Coffea species
+          </p>
+          <button
+            onclick="location.href='./pages/menu.html';"
+            class="banner-background__button"
+          >
+            SHOP NOW
+          </button>
+        </div>
+        <img src="./assests/coffeebeans-hero.png" alt="coffee bag" />
+      </div>
+    </header>
+    <!-- Main section -->
+    <main>
+      <!-- Our products Section -->
+      <section class="main-section">
+        <h2 class="main-heading">Our Products</h2>
+        <section class="card">
+          <!-- Card for each product -->
+          <div class="card__item">
+            <img
+              src="./assests/coffeebeans.png"
+              alt="coffee beans"
+              class="product-image-edit"
+            />
+            <div>
+              <h3>Coffee Beans</h3>
+              <p class="price-edit">$18.99</p>
+            </div>
+          </div>
+          <!-- Cold brew Card -->
+          <div class="card__item">
+            <img
+              src="./assests/coldbrew.png"
+              alt="cold brew"
+              class="product-image-edit"
+            />
+            <div>
+              <h3>Cold Brew</h3>
+              <p class="price-edit">$4.99</p>
+            </div>
+          </div>
+          <!-- In-house brew Card -->
+          <div class="card__item">
+            <img
+              src="./assests/inhousebrew.png"
+              alt="in-house brew"
+              class="product-image-edit"
+            />
+            <div>
+              <h3>In-house Brew</h3>
+              <p class="price-edit">$2.99</p>
+            </div>
+          </div>
+        </section>
+        <!-- Button for view all -->
+        <div class="btn">
+          <button
+            onclick="location.href='./pages/menu.html';"
+            class="banner-background__button"
+          >
+            VIEW ALL
+          </button>
+        </div>
+      </section>
+      <!-- Discount Section -->
+      <section class="offer-backround">
+        <p class="offer__statement">
+          Get 20% off your first order with code:<span>FirstNitro</span>
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer section of the website -->
+    <footer class="banner-background">
+      <!-- Address Division -->
+      <div class="address">
+        <h3>Address</h3>
+        <p class="address__body">503 Broadway Penthouse</p>
+        <p class="address__body">New York</p>
+      </div>
+      <!-- Hours division -->
+      <div class="hours">
+        <h3>Hours</h3>
+        <p class="hours__body"><span>Monday- Friday</span>: 9am- 7pm</p>
+        <p class="hours__body"><span>Saturday-Sunday</span>:10am- 5 pm</p>
+      </div>
+      <!-- Social Division -->
+      <div class="socials">
+        <h3>Social</h3>
+        <a href="http://www.facebook.com"
+          ><img
+            src="./assests/Facebook-Icon.svg"
+            alt="facebook"
+            class="icon-edit"
+        /></a>
+        <a href="http://www.yelp.com"
+          ><img src="./assests/Yelp-Icon.svg" alt="yelp" class="icon-edit"
+        /></a>
+        <a href="http://www.instagram.com"
+          ><img
+            src="./assests/Instagram-Icon.svg"
+            alt="instagram"
+            class="icon-edit"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

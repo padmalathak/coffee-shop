@@ -1,0 +1,102 @@
+/* For bolding the days in the footer */
+span {
+  font-weight: bold;
+}
+/* Discount banner */
+.offer-backround {
+  background-color: #393939;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  
+}
+.offer__statement {
+  
+  font-size: 2.8125rem;
+  padding:2rem;
+  margin-top: 12.5rem;
+  margin-bottom: 12.5rem;
+}
+
+/* Main product images edit */
+.product-image-edit {
+  height: 17.5rem;
+}
+.card,
+.main-heading ,
+.btn{
+  text-align: center;
+}
+
+.main-heading {
+  margin-top: 0px;
+  padding-top:4rem;
+}
+/* Card Styling */
+.card__item {
+  display: inline-block;
+  width: 20.625rem;
+  height: 27.5rem;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  margin: 1.7rem;
+  box-shadow: 0 0.3125rem 0.5625rem -0.0625rem;
+}
+
+.btn{
+  padding: 4rem;
+}
+
+/* Heading -NitroCoffee */
+.banner-background__content {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 3rem;
+}
+
+.banner-background__para {
+  width: 60%;
+  padding-bottom: 2rem;
+}
+
+.banner-background-section,
+.hours,
+.address,
+.socials {
+  padding: 5rem;
+}
+
+/* Button styling - ShopNow and view All  */
+.banner-background__button {
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+  width: 11.25rem;
+  padding: 1.25rem;
+  font-size: 1.3rem;
+  
+}
+
+.navigation__heading {
+  margin-top: 2rem;
+}
+
+.main-section {
+  background-color: #f7f7f7;
+ 
+}
+
+.address__body,
+.hours__body {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Editing the price of the cards - locally */
+.price-edit{
+  font-size: 2rem;
+ 
+}
+

@@ -1,0 +1,66 @@
+/* Elements */
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin:0;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  font-size: 3.75rem;
+}
+h3 {
+  font-size: 2.063rem;
+  font-weight: lighter;
+}
+/* Unordered list in the nav bar */
+ul {
+  list-style-type: none;
+}
+
+/* Icons in the page-> coffee bean,fb, yelp,insta */
+.icon-edit {
+  width: 3.125rem;
+  
+}
+
+.banner-background {
+  background-color: #fff0ed;
+}
+
+/* changing the font color of price */
+.price-edit {
+  color: #5bacc3;
+}
+
+.navigation__heading,
+.navigation__item,
+.navigation__list,
+.hours,
+.address,
+.socials{
+  display: inline-block;
+}
+
+/* Adds to the nav headers - ABOUT,MENU,SHOP NOW in both the pages */
+.navigation__link {
+  text-decoration: none;
+  font-size: 1.8rem;
+  padding: 1rem;
+  color:black; 
+
+}
+
+/* Nav header - ShopNow */
+.navigation__item--highlight {
+  color: #5bacc3;
+}
+
+.navigation-icon{
+  text-decoration: none;
+}
