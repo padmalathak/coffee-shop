@@ -1,0 +1,1 @@
+The project is broken down into two main pages: a Landing Page, and a Menu. The Landing Page is the main page for the site and is where visitors can access basic information. The menu page will provide further details about the coffee shop’s offerings.
